@@ -5,7 +5,7 @@
 2) Install python + pytest on your environment
 3) Run cytora.py on your IDE or terminal with a print statement and your chosen rule/ data (see details on function arguments) or...
 4) Run pytest test.py on your terminal to see the output of these tests
-5) test data can be found and changed as you like in test_data.py
+5) Test data can be found and changed as you like in test_data.py
 
 ## Assumptions
 1) rules represented like this:
@@ -34,7 +34,9 @@ RULE_1 = {
 }
 ```
 before execution (see details below on function).
+
 2) Users will give mostly sensible input_data, exceptions for types existing but things like missing keys or mismatching varibale are not caught - would add this given more time.
+
 3) Scope of testing is very low - would test more scenarios, rules, bad data etc given more time.
 
 ## Whats going on?
