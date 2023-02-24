@@ -39,6 +39,7 @@ before execution (see details below on function).
 
 ## Whats going on?
 ### evaluate()
+The evaluate function provides a way to evaluate complex rules against input data using recursion and logical operators.
 The evaluate function takes in two arguments: a rule dictionary and an input_data dictionary. It evaluates the rule against the input_data and returns a boolean value indicating whether the rule is satisfied or not.
 
 ### Parameters
